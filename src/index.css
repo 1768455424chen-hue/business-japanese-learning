@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #ffffff;
+  --color-card: #f8f9fa;
+  --color-input: #f5f6f8;
+  --color-outer: #f0f0f0;
+
+  --color-primary: #4caf86;
+  --color-primary-light: #edf7f0;
+  --color-primary-deep: #3d9b6f;
+
+  --color-text-main: #1a1a2e;
+  --color-text-body: #333333;
+  --color-text-muted: #999999;
+  --color-text-light: #cccccc;
+
+  --color-border: #eeeeee;
+  --color-border-opt: #e5e5e5;
+  --color-danger: #e05050;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--color-outer);
+  font-family: var(--font-sans);
+  color: var(--color-text-body);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jp-text {
+  font-family: "Meiryo UI", "Meiryo", "MS PGothic", "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", sans-serif;
+  text-wrap: pretty;
+  overflow-wrap: break-word;
+  word-break: auto-phrase;
+}
+
+#root {
+  min-height: 100vh;
+}
